@@ -1,0 +1,10 @@
+C:\Users\dannyllo.mota\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\ClienteCS.exe.config
+C:\Users\dannyllo.mota\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\ClienteCS.exe
+C:\Users\dannyllo.mota\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\ClienteCS.pdb
+C:\Users\dannyllo.mota\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\dannyllo.mota\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\ClienteCS.Form1.resources
+C:\Users\dannyllo.mota\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\ClienteCS.Properties.Resources.resources
+C:\Users\dannyllo.mota\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\dannyllo.mota\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\dannyllo.mota\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\ClienteCS.exe
+C:\Users\dannyllo.mota\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\ClienteCS.pdb

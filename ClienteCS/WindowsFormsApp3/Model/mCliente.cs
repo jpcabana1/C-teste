@@ -5,10 +5,9 @@
         public int CodCliente { get; set; }
         public string RazSocial { get; set; }
 
-        public mCliente(int codCliente, string razSocial)
+        public mCliente()
         {
-            CodCliente = codCliente;
-            RazSocial = razSocial;
+           
         }
     }
 }

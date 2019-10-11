@@ -45,10 +45,21 @@ namespace ClienteCS.Layers.Dados
         public List<mCliente> MontaRetorno(DataTable dataTable)
         {
             List<mCliente> ret;
-
+            mCliente aux;
             try
             {
                 ret = new List<mCliente>();
+               
+                foreach (DataRow item in dataTable.Rows)
+                {
+                    aux = new mCliente
+                    {
+                        RazSocial = item["RAZSOCIAL"].ToString(),
+                        CodCliente = Convert.ToInt32(item["CODCLIENTE"])
+                    };
+                    ret.Add(aux);
+                    aux = null;
+                }
 
                 return ret;
             }

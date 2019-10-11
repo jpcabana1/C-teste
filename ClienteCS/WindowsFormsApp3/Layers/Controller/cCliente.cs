@@ -1,6 +1,8 @@
-﻿namespace ClienteCS.Layers.Controller
+﻿
+namespace ClienteCS.Layers.Controller
 {
     class cCliente
     {
+        
     }
 }

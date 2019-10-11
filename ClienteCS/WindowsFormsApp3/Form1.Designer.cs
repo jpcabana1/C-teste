@@ -39,14 +39,14 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(42, 41);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(295, 20);
+            this.textBox2.Size = new System.Drawing.Size(295, 22);
             this.textBox2.TabIndex = 0;
             // 
             // btnTesteCon
             // 
             this.btnTesteCon.Location = new System.Drawing.Point(362, 38);
             this.btnTesteCon.Name = "btnTesteCon";
-            this.btnTesteCon.Size = new System.Drawing.Size(109, 23);
+            this.btnTesteCon.Size = new System.Drawing.Size(146, 23);
             this.btnTesteCon.TabIndex = 1;
             this.btnTesteCon.Text = "TestarConexão";
             this.btnTesteCon.UseVisualStyleBackColor = true;
@@ -57,6 +57,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(42, 106);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(295, 173);
             this.dataGridView1.TabIndex = 2;
             // 
@@ -64,14 +65,14 @@
             // 
             this.button1.Location = new System.Drawing.Point(362, 106);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 23);
+            this.button1.Size = new System.Drawing.Size(146, 23);
             this.button1.TabIndex = 3;
             this.button1.Text = "Pesquisar";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(498, 311);
+            this.ClientSize = new System.Drawing.Size(613, 385);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnTesteCon);

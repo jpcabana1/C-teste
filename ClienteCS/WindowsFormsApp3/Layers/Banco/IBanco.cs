@@ -8,7 +8,7 @@ namespace ClienteCS.Layers.Dados
         //Usar para Inserts, Updates e Remove
         void ExecutarComando(string comando);
         //Usar para select
-        DataTable ExecutarSelect(string comando);
+        DataSet ExecutarSelect(string comando);
 
     }
 }

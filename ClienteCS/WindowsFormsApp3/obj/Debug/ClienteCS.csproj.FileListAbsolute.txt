@@ -1,0 +1,10 @@
+C:\Users\dannyllo.mota\Desktop\GitHub\CSharp-teste\ClienteCS\WindowsFormsApp3\bin\Debug\ClienteCS.exe.config
+C:\Users\dannyllo.mota\Desktop\GitHub\CSharp-teste\ClienteCS\WindowsFormsApp3\bin\Debug\ClienteCS.exe
+C:\Users\dannyllo.mota\Desktop\GitHub\CSharp-teste\ClienteCS\WindowsFormsApp3\bin\Debug\ClienteCS.pdb
+C:\Users\dannyllo.mota\Desktop\GitHub\CSharp-teste\ClienteCS\WindowsFormsApp3\obj\Debug\ClienteCS.csprojAssemblyReference.cache
+C:\Users\dannyllo.mota\Desktop\GitHub\CSharp-teste\ClienteCS\WindowsFormsApp3\obj\Debug\ClienteCS.Form1.resources
+C:\Users\dannyllo.mota\Desktop\GitHub\CSharp-teste\ClienteCS\WindowsFormsApp3\obj\Debug\ClienteCS.Properties.Resources.resources
+C:\Users\dannyllo.mota\Desktop\GitHub\CSharp-teste\ClienteCS\WindowsFormsApp3\obj\Debug\ClienteCS.csproj.GenerateResource.cache
+C:\Users\dannyllo.mota\Desktop\GitHub\CSharp-teste\ClienteCS\WindowsFormsApp3\obj\Debug\ClienteCS.csproj.CoreCompileInputs.cache
+C:\Users\dannyllo.mota\Desktop\GitHub\CSharp-teste\ClienteCS\WindowsFormsApp3\obj\Debug\ClienteCS.exe
+C:\Users\dannyllo.mota\Desktop\GitHub\CSharp-teste\ClienteCS\WindowsFormsApp3\obj\Debug\ClienteCS.pdb

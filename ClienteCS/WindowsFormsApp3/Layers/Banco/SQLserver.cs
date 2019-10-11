@@ -12,35 +12,36 @@ namespace ClienteCS.Layers.Banco
             throw new NotImplementedException();
         }
 
-        public DataTable ExecutarSelect(string comando)
+        public DataSet ExecutarSelect(string comando)
         {
-            string DataSource = "Data Source=192.168.159.200,1433;";
-            string InitialCatalog = "Initial Catalog=security_recife2;";
-            string IntegratedSecurity = "Integrated Security = true;";
-            string UserID = "User ID=adapta;";
-            string Password = "Password=safaribaiao";
+            string Server = "Server = '192.168.159.200,1433';";
+            string InitialCatalog = "Initial Catalog = 'security_recife2';";
+            //string IntegratedSecurity = "Integrated Security = true;";
+            string UserID = "User ID = 'adapta';";
+            string Password = "Password = 'safaribaiao'";
             SqlConnection Connection;
             SqlCommand Command;
             SqlDataAdapter Adapter;
-            DataTable Retorno;
-
+            DataSet Retorno;
+            string con;
             try
             {
-
-                Connection = new SqlConnection();
+              
                 Command = new SqlCommand();
                 
-                Connection.ConnectionString = DataSource + InitialCatalog + IntegratedSecurity + UserID + Password;
-                Command.Connection = Connection;
-                Command.CommandText = comando;
-                Retorno = new DataTable();
-                Adapter = new SqlDataAdapter(Command);
+                con = Server + InitialCatalog + UserID + Password;
+                Connection = new SqlConnection(con);
+                Connection.Open();
+                        
+                Adapter = new SqlDataAdapter(comando, Connection);
+
+                Retorno = new DataSet();
                 Adapter.Fill(Retorno);
 
                 return Retorno;
             }
             catch (Exception ex)
-            {
+            {               
                 throw ex;
             }
         }

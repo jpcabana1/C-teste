@@ -12,7 +12,7 @@ namespace ClienteCS.Layers.Banco
             throw new NotImplementedException();
         }
 
-        public DataTable ExecutarSelect(string comando)
+        public DataSet ExecutarSelect(string comando)
         {
             throw new NotImplementedException();
         }

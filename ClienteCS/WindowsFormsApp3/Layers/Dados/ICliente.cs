@@ -10,6 +10,6 @@ namespace ClienteCS.Layers.Dados
         void Update(mCliente mCliente);
         void Remove(mCliente mCliente);
         List<mCliente> Consulta(mCliente mCliente, Filtros ObjFiltros);
-        List<mCliente> MontaRetorno(DataTable dataTable);
+        List<mCliente> MontaRetorno(DataSet dataTable);
     }
 }

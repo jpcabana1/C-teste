@@ -12,10 +12,10 @@ namespace ClienteCS.Layers.Dados
         IBanco Dados;
         FacBanco FBanco;
 
-        public RepoCliente(string banco)
+        public RepoCliente()
         {
             FBanco = new FacBanco();
-            Dados = FBanco.GerarBanco(banco);
+            Dados = FBanco.GerarBanco("SQLserver");
         }
 
         public List<mCliente> Consulta(mCliente mCliente, Filtros ObjFiltros)
@@ -25,7 +25,7 @@ namespace ClienteCS.Layers.Dados
 
             try
             {
-                comando = "SELECT * FROM TBLCI";
+                comando = "SELECT TOP 10 * FROM TBCLI";
 
                 retorno =  MontaRetorno(Dados.ExecutarSelect(comando));
 
@@ -42,20 +42,20 @@ namespace ClienteCS.Layers.Dados
             throw new System.NotImplementedException();
         }
 
-        public List<mCliente> MontaRetorno(DataTable dataTable)
+        public List<mCliente> MontaRetorno(DataSet dataSet)
         {
             List<mCliente> ret;
             mCliente aux;
             try
             {
                 ret = new List<mCliente>();
-               
-                foreach (DataRow item in dataTable.Rows)
+
+                for (int i = 0; i < dataSet.Tables[0].Rows.Count-1; i++)
                 {
                     aux = new mCliente
                     {
-                        RazSocial = item["RAZSOCIAL"].ToString(),
-                        CodCliente = Convert.ToInt32(item["CODCLIENTE"])
+                        CodCliente = Convert.ToInt32(dataSet.Tables[0].Rows[i]["CODCLIENTE"]),
+                        RazSocial = dataSet.Tables[0].Rows[i]["RAZSOCIAL"].ToString()
                     };
                     ret.Add(aux);
                     aux = null;
